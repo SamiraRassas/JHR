@@ -1,0 +1,57 @@
+[
+    {
+        "id":"1",
+        "location":"jerusalem, beit hanina",
+        "parking":"yes",
+        "balconies":"2",
+        "numberOfRooms":"3",
+        "surfaceArea":"100km2",
+        "furniture":"yes",
+        "NewlyBuild":"yes",
+        "photos":"",
+        "ownerName":"Samira Rassas",
+        "ownerDetails":"0686748532",
+        "available":"yes",
+        "timesRentedBefore":"1",
+        "cost":"6000 shekel",
+        "status":"reserved"
+
+    },
+    {
+        "id":"2",
+        "location":"jerusalem, sheikh jarrah",
+        "parking":"no",
+        "balconies":"3",
+        "numberOfRooms":"2",
+        "surfaceArea":"150km2",
+        "furniture":"no",
+        "NewlyBuild":"no",
+        "photos":"",
+        "ownerName":"Sandra Murad",
+        "ownerDetails":"0534566788",
+        "available":"yes",
+        "timesRentedBefore":"3",
+        "cost":"5000 shekel",
+        "status":"in progress"
+
+    },
+    {
+        "id":"3",
+        "location":"jerusalem, beit safafa",
+        "parking":"yes",
+        "balconies":"1",
+        "numberOfRooms":"2",
+        "surfaceArea":"120km2",
+        "furniture":"no",
+        "NewlyBuild":"yes",
+        "photos":"",
+        "ownerName":"Khalil Rassas",
+        "ownerDetails":"0532456677",
+        "available":"no",
+        "timesRentedBefore":"2",
+        "cost":"5500 shekel",
+        "status":"available"
+
+    }
+    
+]
