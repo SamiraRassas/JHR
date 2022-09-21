@@ -1,0 +1,209 @@
+body
+    {
+    width: 100%;
+    height: 100%;
+    background-image: url('../photos/backgroundPhoto.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    }
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin:0;
+  } 
+  .navBar{
+    display:flex;
+    font-size:20px;
+    background-color: rgb(219, 240, 240);
+    justify-content: center;
+    padding-top: 10px;
+}
+.nav-list{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+    
+} 
+.nav-link{
+    color: black;
+    text-decoration: none;
+    padding: 20px 10px;
+}
+.navBar  a:hover{
+
+color: rgb(121, 121, 121)}
+.logo{
+     height:40px; 
+     display: flex;
+     justify-content: center;
+}
+.menu{
+    display:none;
+}
+.menu-line{
+    width:20px;
+    height:3px;
+    background-color: black;
+    margin-bottom: 4px;
+
+}
+
+
+
+.footer-structure{
+  width:100%;
+    display:flex;
+    background-color:rgb(219, 240, 240);
+    color: black;
+    align-items:center;
+    align-content:center;
+    row-gap: 10px;
+    flex-direction: row;
+    
+}
+.row1{
+    display:flex;
+    justify-content: space-between;
+    column-gap: 100px;
+
+}
+.row2{
+    display:flex;
+    width:300px;
+    justify-content: space-between;
+
+}
+.row3{
+    display:flex;
+    justify-content: space-between;
+    width: 300px;
+
+}
+.col1{ 
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:200px;
+    padding-top: 20px;
+}
+.col2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 20px;
+}
+.col3{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-top: 20px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    display: flex;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-google {
+    background:#dd4b39;
+    color: white;
+  }
+  .fa-instagram{
+    background: #3B5998;
+    color: white;
+  }
+  .fa-linkedin{
+    background:  #125688;
+    color: white;
+  }
+  .fa-github{
+    background:  #000000;
+    color: white;
+
+  }
+@media all and (max-width: 480px){
+    .navBar{
+        flex-direction: column;
+    }
+    .menu{
+        display: block;
+        position: absolute;
+        right:15px;
+        top:15px;
+    }
+    .nav-list{
+        display: none;
+        border-top: 1px solid black;
+        width: 100%;
+        text-align: center;
+    }
+    .active{
+        display: block;
+    }
+    /* .col1 .col2 .col3{
+      column-gap: 0px ;
+    }
+    .row1 .row2 .row3{
+        flex-direction: column;
+        column-gap: 0;
+    }
+    .footer-structure{
+      flex-direction: column;
+
+    } */
+}
+
+/* ========== DEMO STYLES ========== */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+/* ===== Demo Styles ===== */
+.infobox{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(219, 240, 240);
+    width: 650px;
+    height: auto;
+    margin: 10% auto;
+    padding: 10px;
+    background-color: #fff6f6;
+    border: 1px solid #f5f5f5;
+    border-radius: 15px;
+    -webkit-box-shadow:  0px 0px 10px 0px #f5f5f5;
+    box-shadow:  0px 0px 10px 0px #f5f5f5;
+  }
+  .card {
+    margin-top: 2em;
+    padding: 1.5em 0.5em 0.5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+/* 
+  .signupbtn{
+    width:100px;
+  } */

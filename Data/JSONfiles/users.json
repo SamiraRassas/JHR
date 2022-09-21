@@ -1,0 +1,24 @@
+[
+    {
+        "id":"1",
+        "fullName":"Sireen Hijazi",
+        "username":"sireen11",
+        "email":"sireen@gmail.com",
+        "password":"Njsfn@22jfk",
+        "confirmPassword":"Njsfn@22jfk",
+        "phoneNumber":"0283765414",
+        "location":"beit hanina"
+
+    },
+    {
+        "id":"2",
+        "fullName":"Nawal ",
+        "username":"nawal9",
+        "email":"nawal@gmail.com",
+        "password":"Nawal988",
+        "confirmPassword":"Nawal988",
+        "phoneNumber":"0244566777",
+        "location":"al tur"
+
+    }
+]
